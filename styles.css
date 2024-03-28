@@ -1,0 +1,57 @@
+
+.music-lines2 {
+    display: flex;
+    justify-content: space-between;
+    width: 15px;
+    /* Modifica la larghezza secondo le tue preferenze */
+    height: 20px;
+    /* Modifica l'altezza secondo le tue preferenze */
+}
+.music-lines2:hover {
+    cursor: pointer;
+}
+
+
+.line2 {
+    width: 2px;
+    height: 4px;
+    background-color: #000;
+    /* animation: music-animation 0.8s infinite alternate; */
+    /* Modifica la durata e l'effetto dell'animazione */
+}
+.animate2 {
+    animation: music-animation 0.8s infinite alternate; 
+}
+
+.line2:nth-child(2) {
+    animation-delay: 0.1s;
+    height: 7px;
+    /* Aggiungi un ritardo alle linee successive per creare un effetto più interessante */
+}
+.line2:nth-child(3) {
+    animation-delay: 0.4s;
+    height: 10px;
+
+}
+.line2:nth-child(4) {
+    animation-delay: 0.6s;
+    height: 7px;
+
+}
+.line2:nth-child(5) {
+    animation-delay: 0.2s;
+}
+
+
+
+@keyframes music-animation {
+    0% {
+        height: 5px;
+        /* Altezza iniziale delle linee */
+    }
+
+    100% {
+        height: 14px;
+        /* Altezza finale delle linee */
+    }
+}
