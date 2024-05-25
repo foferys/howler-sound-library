@@ -3,9 +3,8 @@
     display: flex;
     justify-content: space-between;
     width: 15px;
-    /* Modifica la larghezza secondo le tue preferenze */
     height: 20px;
-    /* Modifica l'altezza secondo le tue preferenze */
+    transform: rotate(180deg);
 }
 .music-lines2:hover {
     cursor: pointer;
